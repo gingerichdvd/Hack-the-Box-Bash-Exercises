@@ -10,7 +10,7 @@ do
         if [ $counter -eq 35 ]
         then
                 echo $var | wc -c
-                exit 1             
+                exit 0           
         fi
      
 done
